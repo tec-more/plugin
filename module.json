@@ -1,0 +1,9 @@
+{
+    "repos": "tec-more/plugin",
+    "alias": "tuke-modules-plugin",
+    "name": "Tuke Plugin",
+    "author": "He Pan",
+    "description": "Tuke Plugin",
+    "namespace": "Tuke\\Base\\Plugin",
+    "autoload": "psr-4"
+}

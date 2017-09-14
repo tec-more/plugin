@@ -1,0 +1,33 @@
+{
+    "name": "tec-more/plugin",
+    "description": "TUKE Frameword Plugin.",
+    "keywords": ["framework", "laravel","plugin"],
+    "license": "GNU General Public License v3.0",
+    "homepage": "https://www.tukecx.com",
+    "support": {
+        "issues": "https://github.com/tec-more/tuke/issues",
+        "source": "https://github.com/tec-more/tuke"
+    },
+    "authors": [
+        {
+          "name": "He Pan",
+          "email": "hepan@tukecx.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+          "Tuke\\Plugin\\": "src"
+        },
+        "files": [
+
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
